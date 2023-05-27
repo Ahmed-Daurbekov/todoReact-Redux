@@ -88,6 +88,18 @@
       height: 320px;
       border-radius: 15px;
       overflow-y: auto;
+
+      @media (max-height: 620px) {
+        height: 200px;
+      }
+
+      @media (max-height: 560px) {
+        height: 135px;
+      }
+
+      @media (max-height: 560px) {
+        height: 100px;
+      }
   
       &::-webkit-scrollbar {
         width: 7px;

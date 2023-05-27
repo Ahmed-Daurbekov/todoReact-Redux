@@ -28,6 +28,14 @@ const Output = ({addLoader}) => {
         setTextHide(true)
       }
     })
+
+    window.addEventListener('load', e => {
+      setTextHide(false)
+
+      if (e.target.querySelector('body').offsetWidth <= 790) {
+        setTextHide(true)
+      }
+    })
   }, [])
   
   function removeCard(id) {

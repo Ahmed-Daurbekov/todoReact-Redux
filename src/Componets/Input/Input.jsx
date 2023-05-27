@@ -60,8 +60,7 @@ const Input = ({setAddLoader}) => {
       setDescLabel(false)
       setDescription('')
     } else {
-      console.log('work');
-      console.log(descRef.current);
+      alert('Введите все данные')
     }
   }
 
